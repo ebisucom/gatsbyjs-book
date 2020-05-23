@@ -1,0 +1,25 @@
+
+▼ P.314
+
+import Img from "gatsby-image/withIEPolyfill"
+
+
+▼ P.315
+
+/* IE11対応 */
+@media (-ms-high-contrast: none), not all and (-ms-high-contrast: none) {
+	.wave {
+		width: 100%; 
+		height:0; 
+		padding-bottom: 16.8%; 
+		overflow: hidden;
+	}
+	
+	.wave svg {
+		position: absolute; 
+		height: 100%; 
+		width: 100%; 
+		left: 0; 
+		top:0;
+	}
+}

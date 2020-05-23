@@ -1,0 +1,1 @@
+[{"fieldId":"category","name":"カテゴリー名","kind":"text","required":true},{"fieldId":"categorySlug","name":"カテゴリースラッグ","kind":"text","required":true}]

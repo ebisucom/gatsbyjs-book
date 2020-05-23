@@ -1,0 +1,7 @@
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-XXXXXXXXX-X`,
+      },
+    },
+    

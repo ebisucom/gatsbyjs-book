@@ -1,0 +1,57 @@
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allContentfulBlogPost } }) => {
+              return allContentfulBlogPost.edges.map(edge => {
+                return Object.assign(
+                  {},
+                  {
+                    title: edge.node.title,
+                    description: edge.node.content.fields.description,
+                    date: edge.node.publishDate,
+                    url: `${site.siteMetadata.siteUrl}/blog/post/${edge.node.slug}/`,
+                  }
+                )
+              })
+            },
+            query: `
+              {
+                allContentfulBlogPost(
+                  sort: { order: DESC, fields: publishDate },
+                 ) {
+                  edges {
+                    node {
+                      title
+                      id
+                      slug
+                      publishDate
+                      content {
+                        fields {
+                          description
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: `/rss.xml`,
+            title: `Essentials RSS Feed`,
+          },
+        ],
+      },
+    },

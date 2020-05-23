@@ -1,0 +1,57 @@
+
+▼ P.310
+
+font-family: 'Montserrat Alternates', sans-serif;
+
+
+▼ P.311
+
+import { Helmet } from "react-helmet"
+
+    <Helmet>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap"
+        rel="stylesheet"
+      />
+    </Helmet>
+
+
+▼ P.311
+
+import "typeface-montserrat-alternates"
+
+
+▼ P.312
+
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Montserrat Alternates`,
+            variants: [`400`, `700`],
+          },
+        ],
+      },
+    },
+
+
+▼ P.313
+
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Montserrat Alternates`,
+            variants: [`400`, `700`],
+          },
+          {
+            family: `Noto Sans JP`,
+            variants: [`400`, `700`],
+            subsets: [`japanese`],
+          },
+        ],
+      },
+    },
+    

@@ -1,0 +1,10 @@
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-XXXXXXXXX-X`,
+        head: true,
+        respectDNT: true,
+        exclude: [`/cat/**`, `/test/`],
+      },
+    },
+    

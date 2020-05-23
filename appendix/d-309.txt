@@ -1,0 +1,16 @@
+const { documentToPlainTextString } = require("@contentful/rich-text-plain-text-renderer")
+
+exports.onCreateNode = ({ node, actions }) => {
+  const { createNodeField } = actions
+
+  if (node.internal.type === `contentfulBlogPostContentRichTextNode`) {
+    createNodeField({
+      node,
+      name: `description`,
+      value: `${documentToPlainTextString(JSON.parse(node.content)).slice(
+        0,
+        70
+      )}…`,
+    })
+  }
+}
