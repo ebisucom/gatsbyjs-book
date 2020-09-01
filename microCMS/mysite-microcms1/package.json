@@ -29,7 +29,7 @@
     "gatsby-plugin-react-helmet": "^3.2.4",
     "gatsby-plugin-sharp": "^2.5.6",
     "gatsby-source-filesystem": "^2.2.4",
-    "gatsby-source-microcms": "^0.1.0",
+    "gatsby-source-microcms": "^1.0.0",
     "gatsby-transformer-sharp": "^2.4.6",
     "html-to-text": "^5.1.1",
     "react": "^16.12.0",

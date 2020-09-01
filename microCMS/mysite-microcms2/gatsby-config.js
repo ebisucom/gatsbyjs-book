@@ -43,21 +43,14 @@ module.exports = {
       options: {
         apiKey: process.env.microCMS_API_KEY,
         serviceId: "essentials-blog",
-        endpoint: "blog",
-        query: {
-          limit: 100,
-        },
-      },
-    },
-    {
-      resolve: "gatsby-source-microcms",
-      options: {
-        apiKey: process.env.microCMS_API_KEY,
-        serviceId: "essentials-blog",
-        endpoint: "category",
-        query: {
-          limit: 100,
-        },
+        apis: [
+          {
+            endpoint: "blog",
+          },
+          {
+            endpoint: "category",
+          },
+        ],
       },
     },
     {

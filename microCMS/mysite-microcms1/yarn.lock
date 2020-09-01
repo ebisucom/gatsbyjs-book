@@ -5959,10 +5959,10 @@ gatsby-source-filesystem@^2.2.4:
     valid-url "^1.0.9"
     xstate "^4.8.0"
 
-gatsby-source-microcms@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-microcms/-/gatsby-source-microcms-0.1.0.tgz#65b14ad33facedbb4e5654b0ff76a1564a52c224"
-  integrity sha512-ycJMVSPqwG1wQBliTyO8z52hdDp/pRIv55yLz1mLjHoMkCD8EMcI/UBjOhT0NU1DeNbdcKpMb8IoCgIo84hLaA==
+gatsby-source-microcms@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-microcms/-/gatsby-source-microcms-1.0.0.tgz#77125face999ca5d25215e61a9f8d578685cd719"
+  integrity sha512-DUDfTQTHZLqujB3UimhEY+AOnTILwrMW7jE+m4oYtZEruhRaHR7rfap55lAjBQvhjMl4EmM64XsCG+PVtQ6rQg==
   dependencies:
     "@hapi/joi" "^16.1.7"
     camelcase "^5.3.1"
