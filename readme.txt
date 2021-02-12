@@ -20,6 +20,13 @@ Webサイト高速化のための 静的サイトジェネレーター活用入門
 
 ---
 
+## ■ サポートPDF
+
+### ▼ gatsby-source-contentful v4 & new Gatsby image plugin 対応ガイド： contentful-v4-and-new-gatsby-image.pdf
+
+* 「gatsby-source-contentful v4」と「new Gatsby image plugin」に対応する方法をまとめたPDFです。
+
+
 
 ## ■ 特典PDF
 
@@ -45,6 +52,7 @@ Webサイト高速化のための 静的サイトジェネレーター活用入門
 ------------- | -----
 mysite-part1/ | 第１部で完成させるサンプルのプロジェクトデータ。
 mysite-part2/ | 第２部で完成させるサンプルのプロジェクトデータ。
+mysite-part2-contentful-v4-and-new-gatsby-image/ | mysite-part2を「gatsby-source-contentful v4」と「new Gatsby image plugin」に対応させたプロジェクトデータ。
 
 
 ※プロジェクトデータをそのまま利用する場合、各フォルダのルートで
