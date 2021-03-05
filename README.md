@@ -20,9 +20,9 @@
 
 ## ■ サポートPDF
 
-### ▼ gatsby-source-contentful v4 & new Gatsby image plugin 対応ガイド： contentful-v4-and-new-gatsby-image.pdf
+### ▼ gatsby-v3.pdf
 
-* 「gatsby-source-contentful v4」と「new Gatsby image plugin」に対応する方法をまとめたPDFです。
+* Gatsby v3 に対応する際の注意点と、新しいプラグイン「gatsby-source-contentful v5」と「new Gatsby image plugin」に対応する方法をまとめたPDFです。
 
 
 
@@ -50,7 +50,8 @@
 ------------- | -----
 mysite-part1/ | 第１部で完成させるサンプルのプロジェクトデータ。
 mysite-part2/ | 第２部で完成させるサンプルのプロジェクトデータ。
-mysite-part2-contentful-v4-and-new-gatsby-image/ | mysite-part2を「gatsby-source-contentful v4」と「new Gatsby image plugin」に対応させたプロジェクトデータ。
+mysite-part2-gatsby-v3/ | gatsby-v3.pdfに対応したプロジェクトデータ。
+
 
 
 
@@ -107,4 +108,4 @@ contentful-data/      | インポート用のContentfulのデータです。
 
 本書に記載されている内容や本ダウンロードデータの運用によって、いかなる損害が生じても、株式会社マイナビ出版および著者は責任を負いかねますので、あらかじめご了承ください。
 
-（c）2020 エビスコム / マイナビ出版
+（c）2021 エビスコム / マイナビ出版

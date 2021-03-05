@@ -1,4 +1,4 @@
-# 第２部 完成サンプル（gatsby-source-contentful v4 & new Gatsby image plugin 対応版）
+# 第２部 完成サンプル（Gatsby v3 / gatsby-source-contentful v5 / new Gatsby image plugin 対応版）
 
 
 ------------------------------------------------------
