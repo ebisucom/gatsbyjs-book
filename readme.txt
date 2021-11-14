@@ -22,9 +22,9 @@ Webサイト高速化のための 静的サイトジェネレーター活用入門
 
 ## ■ サポートPDF
 
-### ▼ gatsby-v3.pdf
+### ▼ gatsby-v4.pdf
 
-* Gatsby v3 に対応する際の注意点と、新しいプラグイン「gatsby-source-contentful v5」と「new Gatsby image plugin」に対応する方法をまとめたPDFです。
+* Gatsby v4 に対応する際の注意点と、「gatsby-source-contentful v6」と「new Gatsby image plugin」に対応する方法をまとめたPDFです。
 
 
 
@@ -36,7 +36,7 @@ Webサイト高速化のための 静的サイトジェネレーター活用入門
 * 開発環境の準備などについてまとめたPDFです。
 
 
-### ▼ microCMS対応ガイド： microCMS.pdf
+### ▼ microCMS対応ガイド： microCMS-gatsby-v4.pdf
 
 * ブログの記事管理にヘッドレスCMSのmicroCMSを利用する方法をまとめたPDFです。
 * 「microCMS/」フォルダに収録しています。
@@ -52,7 +52,7 @@ Webサイト高速化のための 静的サイトジェネレーター活用入門
 ------------- | -----
 mysite-part1/ | 第１部で完成させるサンプルのプロジェクトデータ。
 mysite-part2/ | 第２部で完成させるサンプルのプロジェクトデータ。
-mysite-part2-gatsby-v3/ | gatsby-v3.pdfに対応したプロジェクトデータ。
+mysite-part2-gatsby-v4/ | gatsby-v4.pdfに対応したプロジェクトデータ。
 
 
 ※プロジェクトデータをそのまま利用する場合、各フォルダのルートで

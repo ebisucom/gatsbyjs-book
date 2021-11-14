@@ -1,13 +1,12 @@
-# microCMS対応ガイド ［ microCMS.pdf ］
+# microCMS対応ガイド（Gatsby v4対応版） ［ microCMS.pdf ］
 
 ## ■ 収録データ
 
 ### ▼ プロジェクトデータ
 
-フォルダ          | 内容
------------------ | -----
-mysite-microcms1/ | microCMS対応ガイドで完成させるプロジェクトデータ。
-mysite-microcms2/ | microCMS対応ガイドのAPPENDIX Bで完成させるプロジェクトデータ。
+フォルダ                   | 内容 
+-------------------------- | -----
+mysite-microcms-gatsby-v4/ | microCMS-gatsby-v4.pdfに対応したプロジェクトデータ。。
 
 
 ### ▼ インポートデータ

@@ -1,0 +1,46 @@
+{
+  "name": "mysite-part2-gatsby-v4",
+  "private": true,
+  "description": "「Webサイト高速化のための 静的サイトジェネレーター活用入門」で作成するプロジェクトデータです",
+  "homepage": "https://github.com/ebisucom/gatsbyjs-book",
+  "author": "エビスコム - EBISUCOM (https://ebisu.com/)",
+  "version": "1.2.0",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@contentful/rich-text-plain-text-renderer": "^15.6.2",
+    "@contentful/rich-text-types": "^15.6.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "gatsby": "^4.1.2",
+    "gatsby-plugin-image": "^2.1.0",
+    "gatsby-plugin-manifest": "^4.1.1",
+    "gatsby-plugin-offline": "^5.1.1",
+    "gatsby-plugin-react-helmet": "^5.1.0",
+    "gatsby-plugin-sharp": "^4.1.1",
+    "gatsby-source-contentful": "^6.1.1",
+    "gatsby-source-filesystem": "^4.1.0",
+    "gatsby-transformer-sharp": "^4.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ebisucom/gatsbyjs-book.git",
+    "directory": "mysite-part2-gatsby-v4"
+  }
+}
